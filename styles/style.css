@@ -151,12 +151,14 @@ body{
     background-size: cover;
     background-position: center;
     width:1500px px;
-    height: 535px;
+    height: 935px;
     display: grid;
     grid-template-columns: 1fr;
     background-image: url('/assets/classic.jpg');
 }
-#img-wall{    
-
-
+.wall{
+    background-image:url('/assets/books.jpg');
+    height: 490px;
+    background-position: center;
+    background-size: cover;
 }

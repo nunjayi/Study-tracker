@@ -5,7 +5,6 @@ async function Users(){
     let res = await fetch('http://localhost:3000/users')
     let allUsers = res.json()
     return allUsers
-  
 }
 window.addEventListener('load',Users())
 let  usernames = async ()=>{
@@ -54,6 +53,10 @@ function postUser(e) {
             .catch(err => console.error({
                 "Error": err
             }))
+        let userView = document.querySelector('userView')
+        let userDesk = document.querySelector('user')
+        console.log(userView)
+        console.log(userDesk)
 
 }
 //hard get inputs
@@ -154,5 +157,29 @@ async function addCard(notes) {
     })
 
 }
+//function time
+let hrs = document.getElementById('.hrs')
+let mins = document.querySelector('.mins')
+function setTime(){
+    let time = new Date()
+   
+    let hrs = time.getHours()
+    let mins = time.getMinutes()
+    let session = "AM";
     
+    if(hrs == 0){
+        hrs = 12;
+    }
+    
+    if(hrs > 12){
+        hrs = hrs - 12;
+        session = "PM";
+    }
+    setTimeout(setTime(),1000)
+    hrs.textContent = hrs
+    mins.textContent = mins
+}
+
+//setTimeout(setTime(),1000)
+
 

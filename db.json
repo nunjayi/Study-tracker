@@ -4,6 +4,16 @@
       "id": "9e90",
       "name": "Epenetus Nyaga",
       "password": "12345678"
+    },
+    {
+      "id": "9591",
+      "name": "joshua gathee",
+      "password": "1234213"
+    },
+    {
+      "id": "22e1",
+      "name": "Njiru Nyaga",
+      "password": "1234567"
     }
   ],
   "notes": [
@@ -13,9 +23,14 @@
       "notes": "men just like soldier are ment to live in groups"
     },
     {
-      "id": "34e6",
-      "title": "Law of succession",
-      "notes": "testates being married to a deceased can revoke a will\n"
+      "id": "8860",
+      "title": "Document Object Model",
+      "notes": "we user querySelector() to get elements from the document object model"
+    },
+    {
+      "id": "6242",
+      "title": "communication  with server ",
+      "notes": "we a server to handle requests, and give responses to clients "
     }
   ]
 }
