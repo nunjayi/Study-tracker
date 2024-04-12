@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "9e90",
+      "name": "Epenetus Nyaga",
+      "password": "12345678"
+    }
+  ],
+  "notes": [
+    {
+      "id": "r345",
+      "title": "They Way of Men",
+      "notes": "men just like soldier are ment to live in groups"
+    },
+    {
+      "id": "34e6",
+      "title": "Law of succession",
+      "notes": "testates being married to a deceased can revoke a will\n"
+    }
+  ]
+}
